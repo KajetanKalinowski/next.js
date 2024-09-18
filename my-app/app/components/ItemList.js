@@ -1,7 +1,9 @@
 function ItemList() {
     return (
-      <ol style={{margin: '10px', border: '1px dotted red', width: '100px', height: '100px' }}>
-        <li>li1</li> 
-        <li>li2</li>      
-      </ol>  );
+      <ul style={{margin: '10px', width: '100px', height: '100px', color:'white', 'list-style-type':'lower-greek' }}>
+        <li>punkt1</li> 
+        <li>punkt2</li>
+        <li>test1</li>
+        <li>test2</li>     
+      </ul>  );
   }export default ItemList;
